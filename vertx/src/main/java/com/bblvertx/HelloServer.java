@@ -13,7 +13,7 @@ public class HelloServer extends AbstractVerticle {
   public void start() throws Exception {
     vertx.createHttpServer()
         .requestHandler(req -> req.response().putHeader("content-type", "text/html")
-            .end("<html><body><h1>Great BBL !</h1></body></html>"))
+            .end("<html><body><h1>Great BBL !</h1></body></html>\n"))
         .listen(8111);
   }
 }
