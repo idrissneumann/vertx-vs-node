@@ -4,7 +4,7 @@ var http = require('http');
 // Configure our HTTP server to respond with Hello World to all requests.
 var server = http.createServer(function (request, response) {
   response.writeHead(200, {"Content-Type": "text/html; charset=UTF-8"});
-  response.end("<html><body><h1>Trop cool ce BBL !</h1></body></html>\n");
+  response.end("<html><body><h1>Great BBL !</h1></body></html>\n");
 });
 
 // Listen on port 8000, IP defaults to 127.0.0.1
