@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-NB_HIT=1000
+NB_HIT=100000
 
 test(){
 	curl "http://127.0.0.1:$1"
